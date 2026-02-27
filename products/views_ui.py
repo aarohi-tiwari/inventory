@@ -41,3 +41,9 @@ class ProductDeleteView(DeleteView):
     def delete(self, request, *args, **kwargs):
         messages.success(request, "Product deleted successfully.")
         return super().delete(request, *args, **kwargs)
+    
+class ProductListView(ListView):
+    model = Product
+    template_name = "products/product_list.html"
+    context_object_name = "products"
+    paginate_by = 5
