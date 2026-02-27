@@ -1,4 +1,4 @@
-# 🛒 Inventory Management System (Django + DRF)
+# Inventory Management System 
 
 A clean and production-ready Inventory Management System built using:
 
@@ -12,9 +12,9 @@ A clean and production-ready Inventory Management System built using:
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Backend (API)
+### Backend (API)
 - Create Product
 - Fetch Single Product
 - Fetch Paginated Product List
@@ -24,7 +24,7 @@ A clean and production-ready Inventory Management System built using:
 - Structured Error Responses
 - Field Validations
 
-### ✅ Frontend (UI)
+### Frontend (UI)
 - Modern Bootstrap Dashboard
 - Product List View
 - Create / Edit Form
@@ -34,7 +34,7 @@ A clean and production-ready Inventory Management System built using:
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 inventory_project/
 │
 ├── inventory/ # Project configuration
